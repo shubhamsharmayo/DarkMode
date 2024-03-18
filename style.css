@@ -1,0 +1,170 @@
+body{
+    background: white;
+    transition: make 5s all ease;
+}
+.dark{
+    background: linear-gradient(45deg, black,rgb(43, 43, 43),rgb(63, 63, 63));
+    
+    background-size: 700% 100%;
+    animation: make 25s alternate infinite;
+}
+@keyframes make {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}
+.toggle{
+    background-color: rgb(41, 41, 41);
+        box-shadow: 3px 2px 5px 0px red;
+        border: none;
+        height: 40px;
+        width: 70px;
+        border-radius: 50px;
+        font-family: monospace;
+        margin: 0px;
+        font-size: 15px;
+        color: antiquewhite;
+    
+}
+.toggle:hover{
+    
+        box-shadow: 3px 2px 5px 0px red;
+        border: dotted 2px;
+        height: 40px;
+        width: 70px;
+        border-radius: 50px;
+        font-family: monospace;
+        
+    
+}
+.toggle2{
+    background-color: rgb(182, 2, 173);
+    box-shadow: 3px 2px 5px 0px greenyellow;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.inv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    gap: 40px;
+}
+.notdark{
+    background: linear-gradient(49deg, rgb(241, 0, 0),rgb(47, 202, 0),rgb(187, 0, 162),rgb(255, 31, 68),rgb(0, 17, 255),rgb(255, 115, 0));
+    
+    background-size: 700% 100%;
+    animation: make 25s alternate infinite;
+}
+@keyframes make {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}
+.ytoggle{
+    background-color: rgba(24, 24, 24, 0.952);
+    box-shadow: 3px 2px 5px 0px greenyellow;
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    margin: 0;
+    font-family: monospace;
+    font-size: 15px;
+    color: beige;
+}
+.ytoggle:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 6px 10px 0px greenyellow;
+    border: dotted 2px;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    color: black;
+   
+}
+.ytoggle2{
+    background-color: rgb(185, 4, 4);
+    box-shadow: 3px 2px 5px 0px red;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 50px;
+}
+@media (min-width: 144px) and (max-width: 720px){
+    .ytoggle{
+        background-color: rgba(24, 24, 24, 0.952);
+        box-shadow: 3px 2px 5px 0px greenyellow;
+        border: none;
+        height: 80px;
+        width: 150px;
+        border-radius: 50px;
+        margin: 0;
+        font-family: monospace;
+        font-size: 25px;
+        color: beige;
+    }
+    .ytoggle:hover{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 6px 10px 0px greenyellow;
+        border: dotted 2px;
+        height: 80px;
+        width: 160px;
+        border-radius: 50px;
+        color: black;
+       
+    }
+    .ytoggle2{
+        background-color: rgb(31, 31, 31);
+        box-shadow: 3px 2px 5px 0px red;
+        border: none;
+        height: 30px;
+        width: 60px;
+        border-radius: 50px;
+    }
+    .toggle{
+        background-color: rgb(41, 41, 41);
+        box-shadow: 3px 2px 5px 0px red;
+        border: none;
+        height: 80px;
+        width: 150px;
+        border-radius: 50px;
+        font-family: monospace;
+        margin: 0px;
+        font-size: 25px;
+        color: antiquewhite;
+    }
+    .toggle:hover{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 3px 2px 5px 0px red;
+        border: dotted 2px;
+        height: 80px;
+        width: 160px;
+        border-radius: 50px;
+        font-family: monospace;
+        color: black;
+    }
+    .toggle2{
+        background-color: red;
+        box-shadow: 3px 2px 5px 0px greenyellow;
+        border: none;
+        height: 30px;
+        width: 60px;
+        border-radius: 50px;
+    }
+}
